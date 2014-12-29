@@ -22,8 +22,8 @@ map <Leader>r reloadTabUncached
 map <Leader>x :restore<Space>
 
 unmap x
-map <C-e> j
-map <C-y> k
+map <C-e> scrollDown
+map <C-y> scrollUp
 map <C-b> scrollFullPageUp
 map <C-f> scrollFullPageDown
 map <C-u> scrollPageUp
@@ -32,4 +32,6 @@ map <C-n> nextTab
 map <C-p> previousTab
 map <C-o> goBack
 map <C-i> goForward
-map <C-w> closeTab
+map <C-w>q closeTab
+map <C-w><C-q> closeTab
+map <C-w><C-w> nextFrame
