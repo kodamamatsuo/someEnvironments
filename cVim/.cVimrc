@@ -29,4 +29,8 @@ map <C-u> scrollPageUp
 map <C-d> scrollPageDown
 map <C-n> nextTab
 map <C-p> previousTab
+map <C-o> goBack
+map <C-i> goForward
+unmap x
+map <C-w> closeTab
 
