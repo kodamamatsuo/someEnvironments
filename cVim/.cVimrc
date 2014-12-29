@@ -1,0 +1,32 @@
+" Settings
+set nohud
+set nosmoothscroll
+set noautofocus " The opposite of autofocus; this setting stops
+                " sites from focusing on an input box when they load
+set typelinkhints
+let barposition = "bottom"
+
+let locale="jp"
+let hintcharacters = "abc123"
+
+let searchalias g = "google" " Create a shortcut for search engines.
+                             " For example, typing ':tabnew g example'
+                             " would act the same way as ':tabnew google example'
+
+let blacklists = ["https://mail.google.com/*", "*://mail.google.com/*"]
+let mapleader = ","
+
+" Mappings
+
+map <Leader>r reloadTabUncached
+map <Leader>x :restore<Space>
+
+map <C-e> j
+map <C-y> k
+map <C-b> scrollFullPageUp
+map <C-f> scrollFullPageDown
+map <C-u> scrollPageUp
+map <C-d> scrollPageDown
+map <C-n> nextTab
+map <C-p> previousTab
+
