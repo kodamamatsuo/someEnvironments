@@ -22,6 +22,7 @@ map <Leader>r reloadTabUncached
 map <Leader>x :restore<Space>
 
 unmap x
+map 1G scrollToTop
 map <C-e> scrollDown
 map <C-y> scrollUp
 map <C-b> scrollFullPageUp
