@@ -21,6 +21,7 @@ let mapleader = ","
 map <Leader>r reloadTabUncached
 map <Leader>x :restore<Space>
 
+unmap x
 map <C-e> j
 map <C-y> k
 map <C-b> scrollFullPageUp
@@ -31,6 +32,4 @@ map <C-n> nextTab
 map <C-p> previousTab
 map <C-o> goBack
 map <C-i> goForward
-unmap x
 map <C-w> closeTab
-
